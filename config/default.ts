@@ -4,6 +4,12 @@ export default {
   saltWorkFactor: 10,
   accessTokenTtl: '15m',
   refreshTokenTtl: '1y',
-  privateKey: 'ABSD',
-  publicKey: 'dasb'
+  privateKey: `-----BEGEN PRIVATE KEY-----\n
+  12345678absd
+  \n-----END PRIVATE KEY-----
+  `,
+  publicKey: `-----BEGEN PUBLIC KEY-----\n
+  12345678ABSD
+  \n-----END PUBLIC KEY-----
+  `
 };
